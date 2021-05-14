@@ -36,7 +36,6 @@ class Suit(Clothes):
         Clothes.cloth_consumption_suit = result
         return f'Расход ткани для костюма на рост {self.param} м. = {round(2 * self.param + 0.3, 2)} м.'
 
-
 cloth = Clothes()
 coat = Coat(int(input("Введите размер пальто: ")))
 print(coat.cloth_consumption)

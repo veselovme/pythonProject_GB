@@ -25,7 +25,6 @@ class Cell:
         print("Деление ячеек:")
         return Cell(self.nums // other.nums) if other.nums != 0 else "Делить на 0 нельзя"
 
-
 cell_1 = Cell(48)
 cell_2 = Cell(11)
 print(cell_1 + cell_2)

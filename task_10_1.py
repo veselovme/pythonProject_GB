@@ -8,7 +8,6 @@ class Matrix(object):
     def __add__(self, other):
         return Matrix([map(sum, zip(*t)) for t in zip(self.matrix, other.matrix)])
 
-
 First_matrix = Matrix([[5, 9, 1, 7], [4, 8, 4, 5], [9, 12, 5, 1]])
 Second_matrix = Matrix([[1, 5, 3, 2], [2, 7, 3, 2], [3, 5, 4, 1]])
 
